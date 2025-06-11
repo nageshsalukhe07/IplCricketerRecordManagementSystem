@@ -36,7 +36,7 @@ Edit
 
 - Java 17
 - Spring Boot
-- Spring Data JPA
+- Hibernate 6 (use method,HQL Query and Native Query)
 - MySQL
 - REST API
 - Postman (for testing)
@@ -113,16 +113,16 @@ Edit
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/cricket-player-management.git
-   cd cricket-player-management
+   git clone https://github.com/nageshsalukhe07/IplCricketerRecordManagementSystem
+   cd IplCricketerRecordManagementSystem
 Configure MySQL in application.properties:
 
 properties
 Copy
 Edit
-spring.datasource.url=jdbc:mysql://localhost:3306/cricketdb
+spring.datasource.url=jdbc:mysql://localhost:3306/iplcrickterrecord
 spring.datasource.username=root
-spring.datasource.password=yourpassword
+spring.datasource.password=root123
 spring.jpa.hibernate.ddl-auto=update
 Build and Run the Project
 
@@ -130,7 +130,7 @@ bash
 Copy
 Edit
 mvn spring-boot:run
-Test APIs using Postman or Swagger (if integrated).
+Test APIs using Postman .
 
 📩 Contact
 Made with ❤️ by Nagesh Salunkhe
