@@ -1,12 +1,12 @@
 # 🏏 Cricket Player Management System
 
-📌 Project Overview:
+###📌 Project Overview:
 
 A full-stack Spring Boot based web application for managing cricketers, countries, teams, and users. Provides CRUD operations and filtering APIs to retrieve and manage cricket-related data efficiently and filter features via RESTful APIs.
 
 ---
 
-🎯 Objective:
+# 🎯 Objective:
 
 To create a structured and scalable system where cricket player information can be added, updated, and retrieved efficiently based on filters like country, team, role, batting style, etc.
 
@@ -55,17 +55,29 @@ Testing Tool: Postman
 ---
 
 🧩 Key Features / Modules:
+
 1. Cricketer Module
+   
 Add, update, delete, and fetch cricketer info.
+
 Search by name, role, batting/bowling style.
+
 Filter by strike rate, age range, or recent entries.
-2. Country Module
+
+3. Country Module
+   
 Manage country records with name and code.
+
 Search by name or country code.
-3. Team Module
+
+5. Team Module
+   
 Manage team details (name, city, owner, coach, total titles).
+
 Search by coach, owner, title count, etc.
-4. User Module (Authentication)
+
+7. User Module (Authentication)
+   
 Simple user registration and login.
 
 ---
@@ -135,20 +147,29 @@ Simple user registration and login.
 
 ---
 
-📂 My Role & Responsibilities:
+### 📂 My Role & Responsibilities:
+
 Designed and developed all Entity classes (Cricketer, Team, Country, User).
+
 Built RESTful Controllers for each entity.
+
 Implemented service layers for business logic.
+
 Used Spring Data JPA for database interaction.
+
 Wrote custom query methods for searching and filtering.
+
 Performed Postman testing for all endpoints.
 
 ---
 
-✅ Highlights:
+### ✅ Highlights:
 Followed proper naming conventions and layered architecture (Controller–Service–Repository).
+
 Ensured data consistency with proper OneToMany & ManyToOne relationships.
+
 Used @JsonIgnore smartly to prevent recursive JSON issues.
+
 Application is scalable and ready for frontend integration (React/Angular).
 
 ---
@@ -176,8 +197,10 @@ Edit
 mvn spring-boot:run
 Test APIs using Postman .
 
-📩 Contact
+### 📩 Contact
 Made with ❤️ by Nagesh Salunkhe
+
 🔗 LinkedIn
+
 📧 salunkhenagesh575@gmail.com
 
