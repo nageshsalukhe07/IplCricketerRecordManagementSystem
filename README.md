@@ -1,6 +1,12 @@
 # 🏏 Cricket Player Management System
 
-A full-stack Spring Boot based web application for managing cricketers, countries, teams, and users. Provides CRUD operations and filtering APIs to retrieve and manage cricket-related data efficiently.
+📌 Project Overview:
+A full-stack Spring Boot based web application for managing cricketers, countries, teams, and users. Provides CRUD operations and filtering APIs to retrieve and manage cricket-related data efficiently and filter features via RESTful APIs.
+
+---
+
+🎯 Objective:
+To create a structured and scalable system where cricket player information can be added, updated, and retrieved efficiently based on filters like country, team, role, batting style, etc.
 
 ---
 
@@ -32,15 +38,28 @@ Edit
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Technology Stack:
+Backend: Java 17, Spring Boot, Hibernate 6 (hibernate methods,HQL Queries and Native Queries)
+Database: MySQL
+Tools: Eclipse, Postman, Maven
+API Type: RESTful APIs
+Testing Tool: Postman
 
-- Java 17
-- Spring Boot
-- Hibernate 6 (use method,HQL Query and Native Query)
-- MySQL
-- REST API
-- Postman (for testing)
-- Maven
+---
+
+🧩 Key Features / Modules:
+1. Cricketer Module
+Add, update, delete, and fetch cricketer info.
+Search by name, role, batting/bowling style.
+Filter by strike rate, age range, or recent entries.
+2. Country Module
+Manage country records with name and code.
+Search by name or country code.
+3. Team Module
+Manage team details (name, city, owner, coach, total titles).
+Search by coach, owner, title count, etc.
+4. User Module (Authentication)
+Simple user registration and login.
 
 ---
 
@@ -106,6 +125,24 @@ Edit
 | POST   | `/api/user/save`         | Register user                |
 | POST   | `/api/user/saveall`      | Register multiple users      |
 | POST   | `/api/user/login`        | Login and get status         |
+
+---
+
+📂 My Role & Responsibilities:
+Designed and developed all Entity classes (Cricketer, Team, Country, User).
+Built RESTful Controllers for each entity.
+Implemented service layers for business logic.
+Used Spring Data JPA for database interaction.
+Wrote custom query methods for searching and filtering.
+Performed Postman testing for all endpoints.
+
+---
+
+✅ Highlights:
+Followed proper naming conventions and layered architecture (Controller–Service–Repository).
+Ensured data consistency with proper OneToMany & ManyToOne relationships.
+Used @JsonIgnore smartly to prevent recursive JSON issues.
+Application is scalable and ready for frontend integration (React/Angular).
 
 ---
 
