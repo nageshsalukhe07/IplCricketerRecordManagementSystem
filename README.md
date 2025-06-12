@@ -1,11 +1,13 @@
 # 🏏 Cricket Player Management System
 
 📌 Project Overview:
+
 A full-stack Spring Boot based web application for managing cricketers, countries, teams, and users. Provides CRUD operations and filtering APIs to retrieve and manage cricket-related data efficiently and filter features via RESTful APIs.
 
 ---
 
 🎯 Objective:
+
 To create a structured and scalable system where cricket player information can be added, updated, and retrieved efficiently based on filters like country, team, role, batting style, etc.
 
 ---
@@ -39,10 +41,15 @@ Edit
 ---
 
 ## 🛠️ Technology Stack:
+
 Backend: Java 17, Spring Boot, Hibernate 6 (hibernate methods,HQL Queries and Native Queries)
+
 Database: MySQL
+
 Tools: Eclipse, Postman, Maven
+
 API Type: RESTful APIs
+
 Testing Tool: Postman
 
 ---
