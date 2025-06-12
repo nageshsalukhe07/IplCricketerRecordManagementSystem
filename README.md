@@ -1,6 +1,6 @@
 # 🏏 Cricket Player Management System
 
-###📌 Project Overview:
+### 📌 Project Overview:
 
 A full-stack Spring Boot based web application for managing cricketers, countries, teams, and users. Provides CRUD operations and filtering APIs to retrieve and manage cricket-related data efficiently and filter features via RESTful APIs.
 
