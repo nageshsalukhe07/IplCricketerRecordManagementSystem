@@ -68,13 +68,13 @@ Manage country records with name and code.
 
 Search by name or country code.
 
-5. Team Module
+4. Team Module
    
 Manage team details (name, city, owner, coach, total titles).
 
 Search by coach, owner, title count, etc.
 
-7. User Module (Authentication)
+5. User Module (Authentication)
    
 Simple user registration and login.
 
@@ -196,8 +196,12 @@ mvn spring-boot:run
 Test APIs using Postman .
 
 ## 🙋‍♂️ Author
+
 Nagesh Raghunath Salunkhe
+
 📧 salunkhenagesh575@gmail.com
+
 🔗 LinkedIn
+
 🔗 GitHub
 
