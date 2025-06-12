@@ -34,9 +34,7 @@ cricket-player-management/
 │ └── UserService.java
 └── CricketPlayerManagementApplication.java
 
-pgsql
-Copy
-Edit
+
 
 ---
 
@@ -197,10 +195,9 @@ Edit
 mvn spring-boot:run
 Test APIs using Postman .
 
-### 📩 Contact
-Made with ❤️ by Nagesh Salunkhe
-
-🔗 LinkedIn
-
+🙋‍♂️ Author
+Nagesh Raghunath Salunkhe
 📧 salunkhenagesh575@gmail.com
+🔗 LinkedIn
+🔗 GitHub
 
